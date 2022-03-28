@@ -1,7 +1,7 @@
 function background(url, left, bottom, height, width){
     for(let h = 0; h < height; h++){
         for(let w = 0; w < width; w++){
-            newImage(url, left + w*100, bottom+h*100)
+            newImage(url, left + w*200, bottom+h*200)
         }
     }
 }
