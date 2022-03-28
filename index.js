@@ -24,12 +24,12 @@ object.addEventListener('dblclick', function(){
 })
 }
 
-let horizon = window.innerHeight / 1.75
+let horizon = window.innerHeight / 2.75
 let heightOfSky = window.innerHeight-horizon
 let heightOfGrass = horizon
 
-background('assets/sky.png', 0, horizon, window.innerWidth/100, heightOfSky/100)
-background('assets/grass.png', 0, 0, window.innerWidth/100, heightOfGrass/100)
+background('assets/sky.png', 0, horizon, window.innerWidth/200, heightOfSky/200)
+background('assets/grass.png', 0, 0, window.innerWidth/200, heightOfGrass/200)
 
 newImage('assets/green-character.gif', '100', '100')
 newImage('assets/pine-tree.png', '450', '200')
